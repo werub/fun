@@ -9,6 +9,9 @@
     top: 40vh;
     -webkit-transition: all 0.1s ease-out;
   }
+  #desc {
+    font-size: 2.5rem;
+  }
   #yes{
     position: absolute;
     display: inline-block;
@@ -25,9 +28,9 @@
   opacity: .8;
   /* height: 100vh; */
   z-index: 0;
-  background-repeat: no-repeat;
-  background-image: url(../img/bg.webp);
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-image: url(../img/cuteCat.jpg);
+  /* background-size: cover; */
   background-position: 50%;
   -webkit-filter: blur(4px);
 }
